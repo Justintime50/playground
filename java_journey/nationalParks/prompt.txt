@@ -1,0 +1,35 @@
+Open the Java project 1410_LABS and add a new package called textManipulation.
+Add a class called LabTextManipulation that includes the main method.
+
+Inside the main method, do the following:
+
+- Create an ArrayList of strings and call it parks.
+- Read in the names of national parks from the user until the user enters done (or DONE,
+or dOnE, .. ) Keep in mind, that the names of some national parks consist of more than one word, for example, Mesa Verde.
+- As you read in the national parks, add them to the list.
+- Next, we are going to build a string based on the elements in the list parks. Since the text keeps changing as we add one park at a time, we use class StringBuilder for this task. 
+- Use a StringBuilder called sb to create the string nationalParks.
+- Loop through all the elements of the list parks and add them one at a time.
+
+The resulting string should have the following format:
+Favorite National Parks: {park1} | {park2} | . . . | {parkN}
+The parks are separated by a space, a vertical bar, and another space. However, there is no vertical bar after the last element. {park1}, {park2}, {parkN} are the various list elements with updated spelling.
+Create a private method to update the spelling.
+We can't control whether the user enters the park names in uppercase or lowercase letters. However, we can change the names to a spelling where all letters are lowercase except for the first letters of each individual word. In order to make those changes, create a private method called updateSpelling. It has the following method header:
+private static String updateSpelling(String text)
+E.g.: When you pass the string "MESA VERDE" the method returns "Mesa Verde"
+E.g.: When you pass  "yEllOwstOnE" it returns "Yellowstone"
+E.g.: Passing "black canyon of the gunnison" returns "Black Canyon Of The Gunnison"
+E.g.: Passing  "Denali" returns "Denali"
+Hint: Class Character (Links to an external site.) includes a method toLowerCase​ (Links to an external site.)
+When you are done building the specified string in SringBuilder, print it.
+ Sample Output
+The output depends on the information provided by the user.
+
+Please enter your favorite National Park or DONE to stop: mesa verde
+Please enter your favorite National Park or DONE to stop: black CANYON of ThE gunnisON
+Please enter your favorite National Park or DONE to stop: DENALI
+Please enter your favorite National Park or DONE to stop: yellowStone
+Please enter your favorite National Park or DONE to stop: Done
+
+Favorite National Parks: Mesa Verde | Black Canyon Of The Gunnison | Denali | Yellowstone
