@@ -8,6 +8,7 @@ This code may be largely untested and I make no guarantees of its usefulness. Ta
 
 | Project | Description |
 | ------- | ----------- |
+| Humble Pi | A collection of Raspberry Pi projects. |
 | Java Journey | Homework assignments I've helped others with programmed in the Java language. |
 | SMS to List | Send an SMS to individual numbers from a CSV on macOS. |
 | Webhook Server | A fully functioning webhook server example written in Python using Flask. |
