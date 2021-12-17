@@ -11,4 +11,5 @@ jobs:
         uses: nikitasavinov/checkstyle-action@master
         with:
           workdir: "java_journey"
+          level: error
           fail_on_error: true
