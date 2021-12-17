@@ -9,3 +9,5 @@ jobs:
         uses: actions/checkout@v2
       - name: Run check style
         uses: nikitasavinov/checkstyle-action@master
+        with:
+          workdir: "java_journey"
