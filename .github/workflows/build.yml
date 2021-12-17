@@ -15,3 +15,4 @@ jobs:
           fail_on_error: true
           checkstyle_config: "sun_checks.xml"
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          filter_mode: nofilter
