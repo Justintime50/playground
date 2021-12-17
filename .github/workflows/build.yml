@@ -13,3 +13,4 @@ jobs:
           workdir: "java_journey"
           level: error
           fail_on_error: true
+          checkstyle_config: "sun_checks.xml"
