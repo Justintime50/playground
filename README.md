@@ -6,10 +6,11 @@ This code may be largely untested and is not guaranteed to work or follow best p
 
 ## Projects
 
-| Project        | Description                                                                   |
-| -------------- | ----------------------------------------------------------------------------- |
-| Humble Pi      | A collection of Raspberry Pi projects.                                        |
-| Java Journey   | Homework assignments I've helped others with programmed in the Java language. |
-| SMS to List    | Send an SMS to individual numbers from a CSV on macOS.                        |
-| Web Scrapers   | A collection of web scrapers.                                                 |
-| Webhook Server | A fully functioning webhook server example written in Python using Flask.     |
+| Project        | Description                                                                                   |
+| -------------- | --------------------------------------------------------------------------------------------- |
+| Humble Pi      | A collection of Raspberry Pi projects.                                                        |
+| Java Journey   | Homework assignments I've helped others with programmed in the Java language.                 |
+| Roverio        | Rover IO is a suite of tools that traverses your directories and performs IO file operations. |
+| SMS to List    | Send an SMS to individual numbers from a CSV on macOS.                                        |
+| Web Scrapers   | A collection of web scrapers.                                                                 |
+| Webhook Server | A fully functioning webhook server example written in Python using Flask.                     |
