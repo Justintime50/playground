@@ -1,0 +1,9 @@
+.DS_Store
+.idea
+*.egg-info
+build
+dist
+__pycache__
+venv
+.coverage
+htmlcov
